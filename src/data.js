@@ -1,64 +1,86 @@
 const animes = [
     {
+        id: 1,
         nome: 'Dragon Ball',
         nota: 4.7,
-        resenhas: 51
-
+        resenhas: 51,
+        genero: "Ação",
     },
     {
+        id: 2,
         nome: 'JUJUTSU KAISEN',
         nota: 4.9,
-        resenhas: 358
+        resenhas: 358,
+        genero: "Aventura",
     },
     {
+        id: 3,
         nome: 'Naruto',
         nota: 4.6,
-        resenhas: 289
+        resenhas: 289,
+        genero: "Aventura",
     },
     {
+        id: 4,
         nome: 'One Pice',
         nota: 4.9,
-        resenhas: 429
+        resenhas: 429,
+        genero: "Aventura",
     },
     {
+        id: 5,
         nome: 'Naruto Shippuden',
         nota: 4.7,
-        resenhas: 392
+        resenhas: 392,
+        genero: "Aventura",
     },
     {
+        id: 6,
         nome: 'Demon Slayer: Kimetsu no Yaiba',
         nota: 4.8,
-        resenhas: 559
+        resenhas: 559,
+        genero: "Aventura",
     },
     {
+        id: 7,
         nome: 'Nisekoi',
         nota: 4.6,
-        resenhas: 28
+        resenhas: 28,
+        genero: "Comédia",
     },
     {
+        id: 8,
         nome: 'Dragon Ball Z',
         nota: 4.8,
-        resenhas: 537
+        resenhas: 537,
+        genero: "Ação",
     },
     {
+        id: 9,
         nome: 'Dragon Ball Super',
         nota: 4.9,
-        resenhas: 519
+        resenhas: 519,
+        genero: "Ação",
     },
     {
+        id: 10,
         nome: 'Dragon Ball GT',
         nota: 4.2,
-        resenhas: 56
+        resenhas: 56,
+        genero: "Ação",
     },
     {
+        id: 11,
         nome: 'One Punch-man',
         nota: 4.6,
-        resenhas: 102
+        resenhas: 102,
+        genero: "Ação",
     },
     {
+        id: 12,
         nome: 'Death Note',
         nota: 4.8,
-        resenhas: 42
+        resenhas: 42,
+        genero: "Sobrenatural",
     }
-
 ]
