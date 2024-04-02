@@ -16,6 +16,19 @@
 <ul>
    <li>[x] Os mais populares serão os de maiores notas.</li>
    <li>[x] Categorias de gênero definidas</li>
-   <li>[] Começar a construção do HTML para preparar as categorias</li>
-   <li>[] Começar a construção do JS para colocar os dados dentro do HTML</li>
+   <li>[x] Começar a construção do HTML para preparar as categorias</li>
+   <li>[x] Começar a construção do JS para colocar os dados dentro do HTML</li>
+   <li>[ ] Terminar a categoria de Ação e Aventura</li>
+   <li>[ ] Melhorar e corrigir a base de dados, as chaves "url" e "img" de cada item</li>
 </ul>
+
+<p>CheckList de JS e HTML e CSS</p>
+<ul>
+   <li>[ ] Estruturas de Repetições: ForOf, For, Filter</li>
+   <li>[ ] Leitura da documentação da Ferramenta Bootstrap:</li>
+</ul>
+
+
+<p>Links e Documentações</p>
+<a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">Filter</a>
