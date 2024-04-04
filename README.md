@@ -19,7 +19,7 @@
    <li>[x] Começar a construção do HTML para preparar as categorias</li>
    <li>[x] Começar a construção do JS para colocar os dados dentro do HTML</li>
    <li>[ ] Terminar a categoria de Ação e Aventura</li>
-   <li>[ ] Melhorar e corrigir a base de dados, as chaves "url" e "img" de cada item</li>
+   <li>[x] Melhorar e corrigir a base de dados, as chaves "url" e "img" de cada item</li>
 </ul>
 
 <p>CheckList de JS e HTML e CSS</p>
