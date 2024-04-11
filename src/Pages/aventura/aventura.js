@@ -1,4 +1,4 @@
-import { animes } from "./data.js";
+import { animes } from "../../data.js";
 const divAventura = document.getElementById('div-aventura')
 const dataAventura = animes.filter(element => element.genero == "Aventura")
 

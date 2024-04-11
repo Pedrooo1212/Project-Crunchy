@@ -28,7 +28,10 @@ Utilizamos git através do terminal:
 * [X]  Conectar/linkar cada arquivo HTML e JS
 * [X]  As novas paginas DEVEM trazer para elas o arquivo data.js
 * [X]  As paginas vão exibir todos os animes que conrespondem ao teu próprio GENERO
-* [ ]  A pagina index.html deve ter um link para navegar para as outras páginas(acao.html, populares.html, aventura.html ( tag a )
+* [X]  A pagina index.html deve ter um link para navegar para as outras páginas(acao.html, populares.html, aventura.html ( tag a )
+* [ ]  As páginas (populares, acao, aventura) devem ter o cabeçalho
+* [ ]  As Páginas DEVEM conseguir voltar para página principal index.html
+* [ ]
 
 ### CheckList de JS e HTML e CSS
 

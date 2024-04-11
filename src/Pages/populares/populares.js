@@ -1,4 +1,4 @@
-import { animes } from "./data.js";
+import { animes } from "../../data.js";
 const divPopulares = document.getElementById('div-populares'); 
 const dataPopulares = animes.filter(element => element.nota >= 4.8).filter((el, index) => index < 5);
 for (const element of dataPopulares) {

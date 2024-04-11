@@ -1,8 +1,7 @@
-
-
 btn-warning {
     background-color: #f47521;
 }
+
 * {
     margin: 0;
 }
@@ -13,9 +12,10 @@ btn-warning {
 
 body {
     background-color: #23252b;
-    color:white;
+    color: white;
 }
 
-.div-section {
-    margin-top: 80px;
+.card-anime {
+    width: 15em;
+    height: 20em;
 }
