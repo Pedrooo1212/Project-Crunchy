@@ -19,15 +19,15 @@ Utilizamos git através do terminal:
 * [X]  Começar a construção do HTML para preparar as categorias
 * [X]  Começar a construção do JS para colocar os dados dentro do HTML
 * [X]  Terminar a categoria de Ação
-* [ ]  Terminar a categoria de Aventura
+* [X]  Terminar a categoria de Aventura
 * [X]  Melhorar e corrigir a base de dados, URL e IMG
 * [X]  Praticar comandos git
-* [ ]  Criar mais 3 novas Paginas (ação/populares/aventura): acao.html, populares.html, aventura.html
-* [ ]  Instalar bootstrap para as 3 paginas
-* [ ]  Criar arquivos javascript para as 3 paginas: acao.js, populares.js, aventura.js
-* [ ]  Conectar/linkar cada arquivo HTML e JS
-* [ ]  As novas paginas DEVEM trazer para elas o arquivo data.js
-* [ ]  As paginas vão exibir todos os animes que conrespondem ao teu próprio GENERO
+* [X]  Criar mais 3 novas Paginas (ação/populares/aventura): acao.html, populares.html, aventura.html
+* [X]  Instalar bootstrap para as 3 paginas
+* [X]  Criar arquivos javascript para as 3 paginas: acao.js, populares.js, aventura.js
+* [X]  Conectar/linkar cada arquivo HTML e JS
+* [X]  As novas paginas DEVEM trazer para elas o arquivo data.js
+* [X]  As paginas vão exibir todos os animes que conrespondem ao teu próprio GENERO
 * [ ]  A pagina index.html deve ter um link para navegar para as outras páginas(acao.html, populares.html, aventura.html ( tag a )
 
 ### CheckList de JS e HTML e CSS

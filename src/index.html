@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -13,23 +14,66 @@
 </head>
 
 <body>
+    <header>
 
-    <div class="container">
+        <nav  class="navbar bg-body-tertiary fixed-top mb-5">
+            <div class="container-fluid">
+            <img src="logo.png " class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <img src="logo.png" alt=""  class="logo">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Favoritos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="populares.html">Populares</a></li>
+                        <li><a class="dropdown-item" href="acao.html">Ação</a></li>
+                        <li><a class="dropdown-item" href="aventura.html">Aventura</a></li>     
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+
+    <div class="container div-section"> 
         <!--Essa div sera para os mais populares-->
         <div id="div-populares" class="row">
-            <h2 class="mb-3">Animes mais populares</h2>
-            <a href="demo.html">ir para a pagina demonstração</a>
+            <h2 class="mb-3">Mais Populares</h2>
         </div>
 
         <!--Essa div sera para os de Ação-->
         <div id="div-acao" class="row">
         
-            <h2 class="mb-3">Animes de Ação</h2>
+            <h2 class="mb-3">Ação</h2>
 
         </div>
 
         <!--Essa div sera para os de Aventura-->
-        <div>
+        <div id="div-aventura" class="row">
+
+            <h2 class="mb-3">Aventura</h2>
 
         </div>
 
@@ -45,3 +89,7 @@
 </body>
 
 </html>
+
+<!doctype html>
+
+    
