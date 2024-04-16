@@ -4,3 +4,5 @@
 * Objetos: https://www.w3schools.com/js/js_objects.asp
 * Arrays: https://www.w3schools.com/js/js_arrays.asp
 * Conteúdo exercicios do github: https://github.com/betim009/JavaScript-Course/blob/main/Course/01/script.js
+
+**Anotações**:

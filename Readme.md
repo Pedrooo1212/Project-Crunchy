@@ -34,6 +34,11 @@ Utilizamos git através do terminal:
 * [X]  As Páginas DEVEM conseguir voltar para página principal index.html
 * [X]  As Páginas DEVEM conseguir navegar entre elas, exemplo populares deve ser capaz de ir para acao.html
 * [X]  As paginas acao, aventura e populares devem te o mesmo estilo de card que a pagina principal index.html
+* [ ]  [Fácil  - Pesquisar sobre rodapé - Sem Prazo] Criar um footer(rodapé) - Básico - 16/04
+* [ ]  [Fácil  - 2 dias) - Alterar o title de cada página index.html = Página Inicial, populares.html = Populares... 16/04
+* [ ]  [Fácil - 2 dias] Melhorar a estrutura de dados do projeto, acrescentar mais items(animes) - 16/04
+* [ ]  [Fácil - 3 dias] index.html deve exibir 5 de cada gênero (falta ação) 16/04
+* [ ]  [Díficil - sem prazo] Refatorar estrutura de repetiçao (nível hard) 16/04
 
 ### CheckList de JS
 
@@ -45,14 +50,14 @@ Utilizamos git através do terminal:
 
 #### Checklist dos estudos JS
 
-* [ ]  Dominar o básico de tipos de dados
-* [ ]  Como acessa um array?
-* [ ]  Como acesssa um objeto?
-* [ ]  Qual a diferença entre um dado number e string?
-* [ ]  Cite um exemplo de uma prática usando boolean.
-* [ ]  Demonstrar acessando qualquer array e qualquer objeto.
-* [ ]  CHECK do tipo de dados
-* [ ]  Dominar o básico de Estrutura de Condição
+* [ ]  Dominar o básico de tipos de dados 16/04
+* [ ]  Como acessa um array? 16/04
+* [ ]  Como acesssa um objeto? 16/04
+* [ ]  Qual a diferença entre um dado number e string? 16/04
+* [ ]  Cite um exemplo de uma prática usando boolean. 16/04
+* [ ]  Demonstrar acessando qualquer array e qualquer objeto. 16/04
+* [ ]  CHECK do tipo de dados 16/04(16/03)
+* [ ]  Dominar o básico de Estrutura de Condição 16/04
 
 #### Checklist dos estudos HTML e CSS
 
