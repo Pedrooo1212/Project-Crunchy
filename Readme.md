@@ -30,10 +30,10 @@ Utilizamos git através do terminal:
 * [X]  As novas paginas DEVEM trazer para elas o arquivo data.js
 * [X]  As paginas vão exibir todos os animes que conrespondem ao teu próprio GENERO
 * [X]  A pagina index.html deve ter um link para navegar para as outras páginas(acao.html, populares.html, aventura.html ( tag a )
-* [ ]  As páginas (populares, acao, aventura) devem ter o cabeçalho
-* [ ]  As Páginas DEVEM conseguir voltar para página principal index.html
-* [ ]  As Páginas DEVEM conseguir navegar entre elas, exemplo populares deve ser capaz de ir para acao.html
-* [ ]  As paginas acao, aventura e populares devem te o mesmo estilo de card que a pagina principal index.html
+* [X]  As páginas (populares, acao, aventura) devem ter o cabeçalho
+* [X]  As Páginas DEVEM conseguir voltar para página principal index.html
+* [X]  As Páginas DEVEM conseguir navegar entre elas, exemplo populares deve ser capaz de ir para acao.html
+* [X]  As paginas acao, aventura e populares devem te o mesmo estilo de card que a pagina principal index.html
 
 ### CheckList de JS
 
