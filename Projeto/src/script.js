@@ -15,8 +15,8 @@ const dataPopulares = animes.filter(element => element.nota >= 4.8).filter((el, 
 // 5 passo - dataPopulares foi feito com uma estrutura de repetição
 // chamada filter, que filtrou 5 animes com notas maiores que 4.8
 
-const dataAcao = animes.filter(element => element.genero == "Ação")
-const dataAventura = animes.filter(element => element.genero == "Aventura")
+const dataAcao = animes.filter(element => element.nota  >= 4.8)
+const dataAventura = animes.filter(element => element.nota >= 4.8)
 
 // 6 passo - Criamos uma estrutura de repetição, for of
 // Para criar elementos dentro da divPopulares

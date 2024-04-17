@@ -88,5 +88,100 @@ export const animes = [
         genero: "Sobrenatural",
         url: 'https://www.crunchyroll.com/pt-br/series/G6QWD3EE6/death-note',
         img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/97129a46f2418ffe5a67ec64f49a3038.jpe'
-    }
+    },
+    {
+        id: 1,
+        nome: 'Shangri-La Frontier',
+        nota: 4.0,
+        resenhas: 59,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/G79H23Z8P/shangri-la-frontier',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/34cf65c200da726462d0c0ac7e0e55af.jpe'
+    },
+    {
+        id: 1,
+        nome: 'That Time I Got Reincarnated as a Slime',
+        nota: 4.0,
+        resenhas: 76,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GYQ43P3E6/black-butler',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/5d0203598f2ae27dc2dc2601112646e7.jpe'
+    },
+    {
+        id: 1,
+        nome: 'Black Clover </br>',
+        nota: 4.0,
+        resenhas: 32,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/0273e80242d80b0218f640e038269c18.jpe'
+    },
+    {
+        id: 1,
+        nome: 'HIGH CARD',
+        nota: 4.7,
+        resenhas: 85,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/G8DHV74W5/high-card',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/65f636bb451eb88ae960b05db21d1034.jpe'
+    },
+    {
+        id: 1,
+        nome: 'Tokyo Revengers',
+        nota: 4.7,
+        resenhas: 28,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/G3KHEVMN1/tokyo-revengers',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/7923a0407dbdba324c56acec9f096c13.jpe'
+    },
+    {
+        id: 1,
+        nome: 'That Time I Got Reincarnated as a Slime',
+        nota: 4.7,
+        resenhas: 41,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GY8DWQN5Y/golden-kamuy',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/dc4cf400b850058474c592795d1e0803.jpe'
+    },
+    {
+        id: 1,
+        nome: 'Fire Force',
+        nota: 4.7,
+        resenhas: 91,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GYQWNXPZY/fire-force',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/1f0515055bab7ae9eb7e50b4d2a7aebb.jpe'
+    },    {
+        id: 1,
+        nome: 'My Hero Academia',
+        nota: 4.7,
+        resenhas: 178,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/aa31911c746c4d7d027b190f2e184834.jpe'
+    },    {
+        id: 1,
+        nome: 'Log Horizon',
+        nota: 4.7,
+        resenhas: 21,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GRVNMG93Y/log-horizon',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/8a657de6f20cbe2d2347153ec05d316f.jpe'
+    },    {
+        id: 1,
+        nome: 'That Time I Got Reincarnated as a Slime',
+        nota: 4.7,
+        resenhas: 91,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/183aa89af7da4843887aa1b9dc67b252.jpe'
+    },    {
+        id: 1,
+        nome: 'That Time I Got Reincarnated as a Slime',
+        nota: 4.7,
+        resenhas: 46,
+        genero: "Ação",
+        url: 'https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime',
+        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/34cf65c200da726462d0c0ac7e0e55af.jpe'
+    },
 ]
