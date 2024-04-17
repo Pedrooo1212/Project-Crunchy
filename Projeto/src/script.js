@@ -12,11 +12,14 @@ const divCarrousel = document.getElementById('div-carrousel');
 // 4 passo - Criar uma nova estrutura para colocar dentro do HTML e DIV  
 const dataPopulares = animes.filter(element => element.nota >= 4.8).filter((el, index) => index < 5);
 
+
 // 5 passo - dataPopulares foi feito com uma estrutura de repetição
 // chamada filter, que filtrou 5 animes com notas maiores que 4.8
 
-const dataAcao = animes.filter(element => element.nota  >= 4.8)
-const dataAventura = animes.filter(element => element.nota >= 4.8)
+const dataAcao = animes.filter(element => element.genero == "Ação").filter((el, index) => index < 5);
+const dataAventura = animes.filter(element => element.genero == "Aventura").filter((el, index) => index < 5);
+
+
 
 // 6 passo - Criamos uma estrutura de repetição, for of
 // Para criar elementos dentro da divPopulares

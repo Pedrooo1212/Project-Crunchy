@@ -81,15 +81,6 @@ export const animes = [
         img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/5de444edf50cfe5dc4b8b9c93546c150.jpe'
     },
     {
-        id: 12,
-        nome: 'Death Note',
-        nota: 4.8,
-        resenhas: 42,
-        genero: "Sobrenatural",
-        url: 'https://www.crunchyroll.com/pt-br/series/G6QWD3EE6/death-note',
-        img: 'https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=1200,height=675,quality=85/catalog/crunchyroll/97129a46f2418ffe5a67ec64f49a3038.jpe'
-    },
-    {
         id: 1,
         nome: 'Shangri-La Frontier',
         nota: 4.0,
@@ -154,7 +145,7 @@ export const animes = [
     },    {
         id: 1,
         nome: 'My Hero Academia',
-        nota: 4.7,
+        nota: 4.8,
         resenhas: 178,
         genero: "Ação",
         url: 'https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia',
