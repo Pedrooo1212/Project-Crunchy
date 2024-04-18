@@ -58,6 +58,11 @@ Utilizamos git através do terminal:
 * [ ]  Demonstrar acessando qualquer array e qualquer objeto. 16/04
 * [ ]  CHECK do tipo de dados 16/04(16/03)
 * [ ]  Dominar o básico de Estrutura de Condição 16/04
+* [X]  Dominar Variaveis conteudo do W3Schools 17/04
+* [X]  Criar documentação dos estudos 17/04
+* [X]  Estudo de Tipos de dados
+* [X]  Estudo focado em objetos
+* [X]  Acessando objetos
 
 #### Checklist dos estudos HTML e CSS
 
