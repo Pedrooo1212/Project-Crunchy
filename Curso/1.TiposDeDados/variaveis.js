@@ -89,7 +89,6 @@ let $ = "Valor Do Salgado";
 let $$$ = 2;
 let $myMoney = 5;
 
-//(OBS) tirar duvida com alberto sobre "myMoney" 
 
 //---------------------------------------------------------------------------------------------
 
@@ -97,7 +96,7 @@ let $myMoney = 5;
 
 let _valorsalgado = 1;
 let _valorbebida = 2;
-
+console.log (_valorbebida + _valorsalgado)
 //---------------------------------------------------------------------------------------------
 
 //Como usar o console.log

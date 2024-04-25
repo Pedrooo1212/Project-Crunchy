@@ -17,3 +17,6 @@ let saldoDaDispesa = 0;
 
     e exibir em um console.log() o resultado da soma de todas as dispesas.
 */
+
+//
+
