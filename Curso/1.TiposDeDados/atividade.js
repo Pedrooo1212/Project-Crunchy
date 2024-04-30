@@ -18,5 +18,13 @@ let saldoDaDispesa = 0;
     e exibir em um console.log() o resultado da soma de todas as dispesas.
 */
 
-//
+/*
+    - O que é a chave do Objeto?
+    R: uma caracteristica 
+    - Como acessar essa chave?
+    R: por ponto
+*/
 
+saldoDaDispesa = dispesas.aluguel + dispesas.luz + dispesas.agua + dispesas.internet + dispesas.compra + dispesas.outros;
+
+console.log(saldoDaDispesa);
