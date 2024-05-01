@@ -20,3 +20,9 @@ let totalMinutos = 0;
 let totalSegundos = 0;
 
 // Faça abaixo
+
+totalSegundos = (musicas.musica1 + musicas.musica2 + musicas.musica3) * 60
+console.log('total de segundos e', totalMinutos);
+
+totalMinutos = (musicas.musica1 + musicas.musica2 + musicas.musica3)
+console.log('total de minutos e', totalMinutos);

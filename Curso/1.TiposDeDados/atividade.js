@@ -25,6 +25,5 @@ let saldoDaDispesa = 0;
     R: por ponto
 */
 
-saldoDaDispesa = dispesas.aluguel + dispesas.luz + dispesas.agua + dispesas.internet + dispesas.compra + dispesas.outros;
-
-console.log(saldoDaDispesa);
+saldoDaDispesa = (dispesas.aluguel + dispesas.luz + dispesas.agua + dispesas.internet + dispesas.compra + dispesas.outros)
+console.log('total dispesas',saldoDaDispesa)

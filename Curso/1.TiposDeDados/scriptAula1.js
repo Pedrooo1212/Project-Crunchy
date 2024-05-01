@@ -59,3 +59,5 @@ const age = pedro.idade;
 
 console.log('O nome do usuário é', user, 'e sua idade é', age);
 console.log(`O nome do usuário é ${user} e sua idade é ${age}`);
+
+
