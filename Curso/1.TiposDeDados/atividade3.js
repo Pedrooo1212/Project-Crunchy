@@ -24,11 +24,11 @@
 
 
     console.log("Carlos eduardo")
-    IdadeCarlos = (Carlos.idade) - 2024 
+    IdadeCarlos = 2024 - (Carlos.idade) 
     console.log("idade Carlos:",IdadeCarlos);
 
     console.log("Valeria")
-    IdadeValeria = (Valeria.idade) - 2024
+    IdadeValeria = 2024 - (Valeria.idade)
     console.log("idade valeria",IdadeValeria) ;
    
     console.log("Diferenca de idade entre Valeria e Carlos Eduardo")
