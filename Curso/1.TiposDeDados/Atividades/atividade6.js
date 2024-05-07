@@ -13,6 +13,3 @@ const arrNumeros = [
     2
 ];
 
-console.log(arrNumeros[0]);
-
-const TotalArray 

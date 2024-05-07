@@ -15,8 +15,8 @@ const anime = {
 // Contéudo para ajudar a resolver está no arquivo Aulas/scriptAula3.js
 
 
-console.log("nome:",nome)
-console.log("idade",idade)
-console.log("anime:",anime.nome)
-console.log("total de episodios:",anime.episodios)
-console.log("termino:",anime.termino)
+console.log("nome:", nome)
+console.log("idade", idade)
+console.log("anime:", anime.nome)
+console.log("total de episodios:", anime.episodios)
+console.log("termino:", anime.termino)

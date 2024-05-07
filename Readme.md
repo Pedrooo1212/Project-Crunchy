@@ -51,10 +51,10 @@ Utilizamos git através do terminal:
 #### Checklist dos estudos JS
 
 * [ ]  Dominar o básico de tipos de dados 16/04
-* [ ]  Como acessa um array? 16/04
-* [ ]  Como acesssa um objeto? 16/04
-* [ ]  Qual a diferença entre um dado number e string? 16/04
-* [ ]  Cite um exemplo de uma prática usando boolean. 16/04
+* [X]  Como acessa um array? 16/04
+* [X]  Como acesssa um objeto? 16/04
+* [X]  Qual a diferença entre um dado number e string? 16/04
+* [X]  Cite um exemplo de uma prática usando boolean. 16/04
 * [ ]  Demonstrar acessando qualquer array e qualquer objeto. 16/04
 * [ ]  CHECK do tipo de dados 16/04(16/03)
 * [ ]  Dominar o básico de Estrutura de Condição 16/04
