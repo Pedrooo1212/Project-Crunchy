@@ -1,4 +1,4 @@
-
+//OBS:array e uma lista de dados
 // irei somar os valores a baixo
 
 // sempre usar [] siginifacam string / como assim uma string? a funcao dela em si e para ARRAY
