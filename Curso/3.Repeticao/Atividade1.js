@@ -22,15 +22,3 @@ const arrayJogadores = ['Messi', 'Maradona', 'Pelé', 'Cristiano Ronaldo', 'Rona
 // Maradona
 // Pelé
 // ...
-
-
-for (let lugar  = 0; lugar < 21; lugar++) {
-    console.log(lugar)
-    
-}
-
-console.log("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
-
-for (let numeros = 1; numeros < 10; numeros++) {
-    console.log(numeros)
-}
