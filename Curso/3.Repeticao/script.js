@@ -31,7 +31,7 @@ const carros = [
 // index++ -> index + 1 -> troca de posição
 
 for (let index = 0; index < carros.length; index++) {
-    const element = carros[index];
-    console.log(index, element);   
+    
+    console.log(carros);   
 };
 

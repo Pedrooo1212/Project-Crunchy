@@ -24,8 +24,13 @@ const arrayJogadores = ['Messi', 'Maradona', 'Pelé', 'Cristiano Ronaldo', 'Rona
 // ...
 
 
-// EXEMPLO para fazer os exercicios 4
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+for (let lugar  = 0; lugar < 21; lugar++) {
+    console.log(lugar)
+    
 }
 
+console.log("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+
+for (let numeros = 1; numeros < 10; numeros++) {
+    console.log(numeros)
+}
