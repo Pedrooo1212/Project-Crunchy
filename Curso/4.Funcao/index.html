@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Criando Valores dinâmicos:</h1>
+
+        <!-- Essa div vai receber os valores. Estou usando ID para identifcar essa DIV e RESGATAR NO SCRIPT-->
+        <div id="resultados">
+
+        </div>
+
+        <button onclick="criarElementos()">CRIAR TODOS</button>
+        <button onclick="criarElemento()">CRIAR UM</button>
+    </div>
+
+    <script>
+        // AQUI vamos escrever javascript
+        const pokemons = [
+            {
+                id: 1,
+                name: "Bulbasaur",
+                type: "Grass/Poison",
+                img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/001.png"
+            },
+            {
+                id: 2,
+                name: "Ivysaur",
+                type: "Grass/Poison",
+                img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/002.png"
+            },
+            {
+                id: 3,
+                name: "Venusaur",
+                type: "Grass/Poison",
+                img: "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/003.png"
+            },
+        ];
+
+        let index = 0;
+
+        function criarElemento(params) {
+            const divResultados = document.getElementById('resultados');
+
+            if (index >= 3) {
+                return alert('Não tem mais POKEMONS!')
+            };
+
+            divResultados.innerHTML += `
+                <h3>${pokemons[index].name}</h3>
+                <img src="${pokemons[index].img}" />
+            `;
+
+            index++;
+        };
+
+        function criarElementos(params) {
+            const divResultados = document.getElementById('resultados');
+
+
+
+            for (let index = 0; index < pokemons.length; index++) {
+                const element = pokemons[index];
+
+                divResultados.innerHTML += `
+                    <h3>${element.name}</h3>
+                    <img src="${element.img}" />
+                `;
+            };
+        };
+
+    </script>
+</body>
+
+</html>
