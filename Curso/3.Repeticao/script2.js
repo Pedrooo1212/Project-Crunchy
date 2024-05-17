@@ -98,7 +98,7 @@ console.log(pokemons[0].name)
 for (let index = 0; index < pokemons.length; index++) {
     const element = pokemons[index];
     
-    if (element.name === "Charmander") {
+    if (element.type === "Water") {
         console.log(element)
     };
 };

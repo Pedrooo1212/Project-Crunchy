@@ -16,7 +16,7 @@ for (let index = 0; index < 20; index++) {
 // 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
 // 4. Faça um for que percorra a lista a baixo:
-const arrayJogadores = ['Messi', 'Maradona', 'Pelé', 'Cristiano Ronaldo', 'Ronaldo Fenômeno'];
+const arrayJogadores = ['Messi', 'Maradona', 'Pelé', 'Cristiano Ronaldo', 'Ronaldo Fenômeno'];q
 // deve exibir os nomes dos jogadores
 // Messi
 // Maradona
