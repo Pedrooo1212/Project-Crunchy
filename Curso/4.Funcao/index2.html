@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2 id="texto-1">Olá mundo!</h2>
+    
+    <input type="text" id="input-1">
+    <button onclick="clicar()">Clique Aqui</button>
+
+
+
+
+
+    <script>
+        // Aqui você escreve javascript!
+
+        // Seletor
+        const textoH2 = document.getElementById('texto-1');
+        const input1 = document.getElementById('input-1');
+
+
+        // Eventos
+        function clicar() {
+            alert(input1.value);
+            textoH2.textContent = input1.value;
+        };
+
+
+
+    </script>
+</body>
+
+</html>

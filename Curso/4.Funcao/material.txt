@@ -1,0 +1,30 @@
+Guia do index2.html
+
+1. Criar o html:
+comece escrevendo no arquivo: html e marque a opção html 5.
+
+2. Seletores:
+
+Seletores são as diferentes formas de resgatar um elemento HTML no JavaScript.
+
+Crie uma tag <script> </script> na última linha sempre do body.
+
+Resgatamos por id, exemplo: 
+document.getElementById('idDentroDeAlgumElementoHtml');
+
+
+3. Eventos
+para criar um evento dentro de um elemento html, é muito simples.
+basta escrever uma propriedade dentro do elemento html.
+Exemplo:
+<button onclick=""> </button>
+
+Eventos disparam funções
+
+Exemplo de sintaxe de Função:
+
+function nomeDaFuncao() {
+    
+}
+
+
