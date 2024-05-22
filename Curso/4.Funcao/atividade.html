@@ -9,3 +9,191 @@
 
 
 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Carros disponiveis na loja</h1>
+        <div id="Carros">
+        </div>
+        <button onclick="Bmw()">TODAS AS BMW</button>
+        <button onclick="umabmw()">UMA BMW</button>
+
+        <script>
+
+            let index = 0;
+            const carrosbmw = [
+                {
+                    id: 1,
+                    name: "Série 1",
+                    preco: 150000,
+                    cor: "Azul",
+                    Portas: 4,
+                    type: "Compacto",
+                    ano: 2023,
+                    img: "https://th.bing.com/th/id/OIP.3LW8XghRoejLrQZgUMimNgHaEo?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 2,
+                    name: "Série 3",
+                    preco: 180000,
+                    cor: "Azul",
+                    Portas: 4,
+                    type: "Sedan",
+                    ano: 2024,
+                    img: "https://th.bing.com/th/id/OIP.yZbdZorcSXmGQXEhdyH7JwHaEo?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 3,
+                    name: "Série 5",
+                    preco: 200.000,
+                    cor: "Preta",
+                    Portas: 4,
+                    type: "Sedan",
+                    ano: 2024,
+                    img: "https://th.bing.com/th/id/OIP.IcLVSsHDusoHHl9G59ppFwAAAA?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 4,
+                    name: "Série 7",
+                    preco: 250.000,
+                    cor: "Cinza",
+                    Portas: 4,
+                    type: "Sedan",
+                    ano: 2024,
+                    img: "https://mediacloud.carbuyer.co.uk/image/private/s--y9L-gsn9--/v1579643661/carbuyer/2019/04/01_0.jpg"
+                },
+                {
+                    id: 5,
+                    name: "X1",
+                    preco: 170.000,
+                    cor: "Cinza",
+                    Portas: 4,
+                    type: "SUV",
+                    ano: 2023,
+                    img: "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/1-bmw-x1-25d-2019-fd-hero-front.jpg"
+                },
+                {
+                    id: 6,
+                    name: "X3",
+                    preco: 190.000,
+                    cor: "Cinza",
+                    Portas: 4,
+                    type: "SUV",
+                    ano: 2023,
+                    img: "https://th.bing.com/th/id/OIP.MloNxFhtwThE1V6Pyt2F1wHaEo?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 7,
+                    name: "X5",
+                    preco: 240.000,
+                    cor: "Branca",
+                    Portas: 4,
+                    type: "SUV",
+                    ano: 2023,
+                    img: "https://i1.wp.com/www.fleetime.it/wp-content/uploads/2018/11/BMW-nuova-X5-forntlat.jpg?fit=2362,1699&ssl=1"
+                },
+                {
+                    id: 8,
+                    name: "X6",
+                    preco: 280.000,
+                    cor: "Azul",
+                    Portas: 4,
+                    type: "SUV",
+                    ano: 2024,
+                    img: "https://th.bing.com/th/id/OIP.-YcdPpKCHx2aVd2xNk6hWAHaEo?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 9,
+                    name: "i8",
+                    preco: 350.000,
+                    cor: "Laranja",
+                    Portas: 2,
+                    type: "Esportivo",
+                    ano: 2023,
+                    img: "https://th.bing.com/th/id/OIP._S-lqBJBB4jFHlJiFeweRwHaFj?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 10,
+                    name: "M2",
+                    preco: 220.000,
+                    cor: "azul",
+                    Portas: 2,
+                    type: "Esportivo",
+                    ano: 2022,
+                    img: "https://s3.caradvice.com.au/wp-content/uploads/2016/04/BMW-M2-003.jpg"
+                },
+                {
+                    id: 11,
+                    name: "M3",
+                    preco: 270.000,
+                    cor: "Verde",
+                    Portas: 2,
+                    type: "Esportivo",
+                    ano: 2022,
+                    img: "https://th.bing.com/th/id/OIP.NUki_TnJZt5yl5ysAoRYSAHaE8?rs=1&pid=ImgDetMain"
+                },
+                {
+                    id: 12,
+                    name: "M4",
+                    preco: 320.000,
+                    cor: "Cinza",
+                    Portas: 2,
+                    type: "Esportivo",
+                    ano: 2022,
+                    img: "https://th.bing.com/th/id/R.abc0be9aafe9f4dc744506c3b7bfa47b?rik=6xQydUwxHky3lA&riu=http%3a%2f%2fhdqwalls.com%2fdownload%2fg-power-bmw-m4-cs-2018-9j-1920x1080.jpg&ehk=ab%2bIadhWZCkMZIvkK4aczhf%2bd5MVWgMTNqY74zTvCko%3d&risl=&pid=ImgRaw&r=0"
+                }
+            ];
+
+
+            function Bmw() {
+                const Todososcarros = document.getElementById('Carros')
+
+                for (let index = 0; index < carrosbmw.length; index++) {
+                    const element = carrosbmw[index];
+
+                    Todososcarros.innerHTML += `
+         <h3>${element.name}</h3>
+         <h2>${element.cor}</h2>
+         <img src ="${element.img}" />
+         
+         `;
+                };
+
+
+            };
+
+            function umabmw() {
+                const Todososcarros = document.getElementById('Carros')
+
+                Todososcarros.innerHTML += `
+        <h3>${carrosbmw[index].name}</h3>
+        <h2>${carrosbmw[index].cor}</h2>
+        <img src = "${carrosbmw[index].img}" />
+
+        `;
+
+                index++
+            }
+
+
+
+
+
+
+
+        </script>
+
+</body>
+
+</html>
