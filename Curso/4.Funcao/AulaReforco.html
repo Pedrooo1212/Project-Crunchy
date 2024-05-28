@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Reforço</title>
+</head>
+
+<style>
+    form {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
+<body>
+    
+    <form onsubmit="cadastrar(event)">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="seuEmail@email.com" id="email" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+
+        <label for="telNumber">Telefone:</label>
+        <input type="tel" id="telNumber" required>
+
+        <select id="genre">
+            <option selected value="selected">Escolha</option>
+            <option value="masc">Masculino</option>
+            <option value="fem">Feminino</option>
+            <option value="other">Outro</option>
+        </select>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+
+    <div id="resultados">
+
+    </div>
+
+
+
+
+    <!-- Sempre na ultima linha do body -->
+    <script>
+        const resultados = document.getElementById('resultados');
+
+        function cadastrar(event) {
+            // Previr que a pagina seja atualizada!!
+            event.preventDefault();
+
+            const email = document.getElementById('email');
+            const name = document.getElementById('name');
+            const password = document.getElementById('password');
+            const tel = document.getElementById('telNumber');
+
+            resultados.innerHTML += `
+                <p>${name.value} ${email.value}</p>
+            `
+            email.value = "";
+            name.value = "";
+            password.value = "";
+            tel.value = "";
+        }
+
+
+    </script>
+</body>
+</html>
