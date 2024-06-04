@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    form {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+
+    }
+</style>
+
+<body>
+    <form onsubmit="cadastrar(event)">
+        <label for="modelo">Modelo do carro:</label>
+        <input type="text" placeholder="modelo da sua escolha" id="modelo" required>
+        </br>
+        <label for="tabelafip">valor da tabela fip:</label>
+        <input type="number" id="tabelafip" required>
+        </br>
+        <select id="cor">
+            <option selected value="selected">Escolha</option>
+            <option value="azul">azul (disponivel)</option>
+            <option value="preto">preto (disponivel)</option>
+            <option value="branco">branco (disponivel)</option>
+
+
+        </select>
+        </br>
+        <select id="motor">
+            <option selected value="selected">Escolha</option>
+            <option value="1.0">1.0 (disponivel)</option>
+            <option value="1.4">1.4 (disponivel)</option>
+            <option value="2.0">2.0 (disponivel)</option>
+
+
+        </select>
+
+        </br>
+
+
+        <button onclick="" type="submit">Fazer pedido</button>
+    </form>
+    <div id="resultados">
+
+
+    </div>
+    <script>
+        const resultados = document.getElementById('resultados');
+        function cadastrar(event) {
+        };
+
+
+
+    </script>
+</body>
+
+</html>
