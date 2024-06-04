@@ -12,7 +12,6 @@
         width: 40%;
         display: flex;
         flex-direction: column;
-
     }
 </style>
 
@@ -47,17 +46,26 @@
 
         <button onclick="" type="submit">Fazer pedido</button>
     </form>
+    
     <div id="resultados">
 
 
     </div>
+
     <script>
         const resultados = document.getElementById('resultados');
         function cadastrar(event) {
+            event.preventDefault();
+
+            const modelo = document.getElementById('modelo');
+            const tabelafip = document.getElementById('tabelafip');
+
+            resultados.innerHTML += `
+                <p>${modelo.value} ${tabelafip.value}</p>
+            `
+            modelo.value = "";
+            tabelafip.value = "";
         };
-
-
-
     </script>
 </body>
 

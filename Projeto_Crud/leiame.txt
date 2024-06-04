@@ -1,0 +1,15 @@
+Objetivo é aprender javascript com o CRUD.
+
+CREATE - CRIA
+READ - LÊ
+UPDATE - ALTERA
+DELETE - EXCLUI
+
+CRIA ALGUMA COISA
+RESGATA ALGUMA COISA
+ALTERA ALGUMA COISA
+DELETA ALGUMA COISA
+
+
+Ordem de dificuldade:
+Read -> Create -> Update -> Delete
