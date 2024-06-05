@@ -100,3 +100,14 @@ for (let index = 0; index < data.length; index++) {
         console.log(element)
     };
 };
+
+console.log();
+
+// Carros Acima de 90.000
+for (let index = 0; index < data.length; index++) {
+    const element = data[index];
+    
+    if (element.Preco > 90000) {
+        console.log(element)
+    }
+}
